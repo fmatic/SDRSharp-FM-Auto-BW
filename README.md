@@ -1,127 +1,113 @@
-SDRSharp FM Auto BW
+# SDRSharp FM Auto BW
 
-TEF6686-inspired adaptive FM bandwidth plugin for SDR#.
+> TEF6686-inspired adaptive FM bandwidth plugin for SDR#
 
-Designed especially for FM-DXing with Airspy HF+ receivers and other SDR# compatible radios.
+Adaptive WFM bandwidth control designed especially for FM-DXing with Airspy HF+ receivers and SDR#.
 
-⸻
+---
 
-Features
+## Features
 
-* Adaptive WFM bandwidth control
-* SNR-based automatic bandwidth adjustment
-* Stereo pilot aware bandwidth expansion
-* Adjustable Attack / Release behavior
-* Min / Max bandwidth limits
-* FM-DX focused profiles:
-    * Es DX
-    * Tropo
-    * RDS Logging
-    * Hi-Fi
-* WFM-only safe mode
-* Manual bandwidth override
-* Lightweight SDR# native UI
+✅ Adaptive FM bandwidth control  
+✅ SNR-driven Auto BW engine  
+✅ Stereo pilot aware filtering  
+✅ Adjustable Attack / Release behavior  
+✅ Min / Max bandwidth limits  
+✅ FM-DX optimized profiles  
+✅ WFM-only safe mode  
+✅ Manual override controls  
+✅ Lightweight SDR# native UI  
 
-⸻
+---
 
-Why?
+## Profiles
 
-Many FM DXers using TEF6686-based tuners discovered how effective adaptive bandwidth can be during:
+| Profile | Purpose |
+|---|---|
+| Es DX | Aggressive adaptive behavior for Sporadic-E |
+| Tropo | Stable long-duration enhancement behavior |
+| RDS Logging | Optimized for weak PI/RDS decoding |
+| Hi-Fi | Wider bandwidth for listening quality |
 
-* Sporadic-E openings
-* Meteor scatter
-* Tropo
-* Weak adjacent-channel situations
-* Unattended RDS logging
+---
 
-This plugin brings similar adaptive behavior into SDR#.
+## Why Adaptive Bandwidth?
 
-Instead of using a fixed FM filter width, the plugin dynamically adjusts WFM bandwidth based on real-time signal conditions.
+Traditional SDR FM listening uses a fixed WFM filter width.
 
-⸻
+During real FM-DX conditions:
+- signal strength changes rapidly
+- adjacent channel interference changes constantly
+- stereo/mono transitions happen dynamically
 
-Current Adaptive Logic
+TEF6686 tuners became popular among FM DXers because their adaptive bandwidth behavior reacts automatically to changing RF conditions.
 
-The current alpha version uses:
+This plugin brings similar concepts into SDR#.
 
-* Visual SNR
-* Stereo pilot detection
-* Attack / Release smoothing
-* User-defined bandwidth limits
+---
 
-Stereo signals may automatically allow slightly wider bandwidth, while weaker mono signals can force narrower filtering for improved DX performance.
+## Current Adaptive Logic
 
-⸻
+The current alpha uses:
 
-Profiles
+- Visual SNR
+- Stereo pilot detection
+- Attack / Release smoothing
+- Adjustable bandwidth limits
+- FM-DX behavior profiles
 
-Es DX
+Stereo signals may automatically allow slightly wider bandwidth, while weak mono signals can force narrower filtering for improved DX performance.
 
-Aggressive adaptive behavior for fast-changing Sporadic-E conditions.
+---
 
-Tropo
+## Screenshot
 
-More stable behavior optimized for long-duration enhancement conditions.
+![FM Auto BW Screenshot](docs/screenshot.png)
 
-RDS Logging
+---
 
-Optimized for weak-signal unattended monitoring and PI/RDS decoding.
+## Requirements
 
-Hi-Fi
+- SDR# Studio
+- Windows
+- SDR# Plugin API support
 
-Prefers wider bandwidth and smoother transitions for listening quality.
+Recommended SDRs:
+- Airspy HF+
+- Airspy HF+ Discovery
+- Airspy Mini
 
-⸻
+---
 
-Requirements
+## Status
 
-* SDR# Studio
-* Windows
-* SDR# Plugin API support
-* Recommended:
-    * Airspy HF+
-    * Airspy HF+ Discovery
-    * Airspy Mini
+🚧 Early Alpha Release
 
-⸻
+Algorithms and behavior will continue evolving through real-world FM-DX testing during Es and tropo conditions.
 
-Status
+---
 
-Early Alpha Release
+## Planned Features
 
-Algorithms and behavior will continue evolving through real-world FM-DX testing.
+- Adjacent channel intelligence
+- Spectrum-aware adaptive filtering
+- Advanced damping logic
+- Preset saving
+- Per-profile custom settings
+- Optional logging/debug mode
 
-⸻
+---
 
-Planned Features
-
-* Adjacent channel intelligence
-* Spectrum-aware adaptive filtering
-* Advanced damping logic
-* Preset saving
-* Per-profile custom settings
-* Smarter stereo behavior
-* Optional logging/debug mode
-
-⸻
-
-Screenshot
-
-(Add screenshot here)
-
-⸻
-
-Credits / Inspiration
+## Inspiration
 
 Inspired by:
+- TEF6686 adaptive bandwidth behavior
+- FM-DX community experimentation
+- Sjef Verhoeven (PE5PVB)
+- Airspy SDR ecosystem
 
-* TEF6686 adaptive bandwidth behavior
-* FM-DX community experimentation
-* Sjef Verhoeven (PE5PVB) and TEF6686 firmware work
-* Airspy SDR ecosystem
+---
 
-⸻
+## Disclaimer
 
-Disclaimer
-
-This project is experimental and intended primarily for FM-DX hobby use.
+Experimental software intended primarily for FM-DX hobby use.
