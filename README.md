@@ -104,7 +104,7 @@ Inspired by:
 - TEF6686 adaptive bandwidth behavior
 - FM-DX community experimentation
 - Sjef Verhoeven (PE5PVB)
-- Airspy SDR ecosystem
+- Airspy SDR ecosystem by prog_
 
 ---
 
