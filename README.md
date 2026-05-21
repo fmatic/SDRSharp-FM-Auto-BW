@@ -62,7 +62,7 @@ Stereo signals may automatically allow slightly wider bandwidth, while weak mono
 
 ## Screenshot
 
-![FM Auto BW Screenshot](docs/screenshot.png)
+![FM Auto BW Screenshot](/docs/screenshot.png)
 
 ---
 
