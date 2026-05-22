@@ -1,6 +1,8 @@
-![Version](https://img.shields.io/badge/version-v0.5_alpha-orange)
-
 # SDRSharp FM Auto BW
+
+![GitHub Release](https://img.shields.io/github/v/release/fmatic/SDRSharp-FM-Auto-BW)
+![Platform](https://img.shields.io/badge/platform-Windows-blue)
+![SDR#](https://img.shields.io/badge/SDR%23-compatible-purple)
 
 > TEF6686-inspired adaptive FM bandwidth plugin for SDR#
 
