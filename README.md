@@ -14,6 +14,8 @@ Adaptive WFM bandwidth control designed especially for FM-DXing with Airspy HF+ 
 ✅ Adjustable Attack / Release behavior  
 ✅ Min / Max bandwidth limits  
 ✅ FM-DX optimized profiles  
+✅ Adjacent channel protection  
+✅ Bandwidth hold damping  
 ✅ WFM-only safe mode  
 ✅ Manual override controls  
 ✅ Lightweight SDR# native UI  
