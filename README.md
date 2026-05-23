@@ -20,6 +20,11 @@ Adaptive WFM bandwidth control designed especially for FM-DXing with Airspy HF+ 
 ✅ FM-DX optimized profiles  
 ✅ Adjacent channel protection  
 ✅ Bandwidth hold damping  
+✅ Persistent settings
+✅ Auto restore previous state
+✅ Profile restore
+✅ Manual BW restore
+✅ Adjacent/Hold restore
 ✅ WFM-only safe mode  
 ✅ Manual override controls  
 ✅ Lightweight SDR# native UI  
