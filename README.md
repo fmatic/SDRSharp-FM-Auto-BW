@@ -12,27 +12,25 @@ Adaptive WFM bandwidth control designed especially for FM-DXing with Airspy HF+ 
 
 ## Features
 
-✅ Adaptive FM bandwidth control  
-✅ SNR-driven Auto BW engine  
-✅ Stereo pilot aware filtering  
-✅ Adjustable Attack / Release behavior  
-✅ Min / Max bandwidth limits  
-✅ FM-DX optimized profiles  
-✅ Adjacent channel protection  
-✅ Bandwidth hold damping  
-✅ Persistent settings
-✅ Auto restore previous state
-✅ Profile restore
-✅ Manual BW restore
-✅ Adjacent/Hold restore
-✅ Smart stereo stability logic
-✅ Stereo aware BW ON/OFF
-✅ Pilot flicker protection
-✅ Stereo counters reset when Auto BW off
-✅ Persistent StereoAware setting
-✅ WFM-only safe mode  
-✅ Manual override controls  
-✅ Lightweight SDR# native UI  
+- ✅ Adaptive FM bandwidth control
+- ✅ SNR-driven Auto BW engine
+- ✅ Stereo pilot aware filtering
+- ✅ Smart stereo stability logic
+- ✅ Stereo aware BW ON/OFF
+- ✅ Pilot flicker protection
+- ✅ Adjustable Attack / Release behavior
+- ✅ Min / Max bandwidth limits
+- ✅ FM-DX optimized profiles
+- ✅ Adjacent channel protection
+- ✅ Bandwidth hold damping
+- ✅ Persistent settings
+- ✅ Auto restore previous state
+- ✅ Profile restore
+- ✅ Manual BW restore
+- ✅ Adjacent/Hold restore
+- ✅ WFM-only safe mode
+- ✅ Manual override controls
+- ✅ Lightweight SDR# native UI
 
 ---
 
